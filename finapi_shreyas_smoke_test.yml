@@ -52,7 +52,7 @@ steps:
       /azagent/venv/bin/python3 -c "
       import os
       import time
-      from test.log_analytics import send_log_to_loganalytics
+      from tests.log_analytics import send_log_to_loganalytics
 
       pipeline_data = [{
           'pipeline': os.environ.get('PIPELINE_NAME'),
