@@ -17,6 +17,8 @@ variables:
   - name: webAppName
     value: 'finapi-shreyas'                  # <-- Update this Azure Web App target
 
+  - group: LogAnalyticsSecrets
+
 steps:
 - script: |
     echo "Installing Azure DevOps CLI extension..."
