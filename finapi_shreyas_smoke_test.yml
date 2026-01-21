@@ -9,7 +9,7 @@ steps:
     displayName: "Install dependencies"
 
   - script: |
-      /azagent/venv/bin/python3 -m pytest -v --tb=line  -W "ignore::DeprecationWarning" -s tests/smoke_tests.py --junitxml=smoke-results.xml
+      /azagent/venv/bin/python3 -m pytest -v --tb=line  -W "ignore::DeprecationWarning" -s tests/smoke_test.py --junitxml=smoke-results.xml
     displayName: "Run full smoke test suite"
 
 
