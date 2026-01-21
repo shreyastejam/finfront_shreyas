@@ -11,11 +11,11 @@ variables:
   - name: artifactName
     value: 'api'
   - name: targetFile
-    value: 'app.py'                               # Optional: Which file inside artifact to display
+    value: 'app.py'                               # Optional
   - name: resourceGroup
     value: 'Training-Student-023-OC012'          # <-- Update this
   - name: webAppName
-    value: 'finweb-shreyas'                  # <-- Update this Azure Web App target
+    value: 'finapi-shreyas'                  # <-- Update this Azure Web App target
 
 steps:
 - script: |
