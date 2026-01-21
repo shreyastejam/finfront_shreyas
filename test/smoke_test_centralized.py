@@ -2,7 +2,7 @@ import requests
 import time
 from log_analytics import send_log_to_loganalytics
 
-BASE_URL = "https://finapi-yourname.azurewebsites.net" #  <------ Replace with your actual base URL
+BASE_URL = "https://finapi-shreyas.azurewebsites.net" #  <------ Replace with your actual base URL
 logs = []
 
 def log_result(name, status, url, method, duration, status_code, message=""):
